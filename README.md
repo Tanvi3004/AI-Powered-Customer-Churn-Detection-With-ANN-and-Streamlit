@@ -39,6 +39,32 @@ Using the model in a Streamlit web app.
 │-- 📂 logs                      # Training Logs for TensorBoard
 │-- 📜 app.py                    # Streamlit App
 
+
+📂 Customer-Churn-Prediction-ANN
+│
+├── 📜 README.md # Project overview and documentation
+├── 📜 requirements.txt # List of dependencies
+│
+├── 📂 data # Folder containing dataset
+│ └── 📄 Churn_Modelling.csv # Customer churn dataset
+│
+├── 📂 models # Folder for saved models and encoders
+│ ├── 📄 model.h5 # Trained ANN model
+│ ├── 📄 label_encoder_gender.pkl # Label encoder for gender
+│ ├── 📄 onehot_encoder_geo.pkl # One-hot encoder for geography
+│ └── 📄 scaler.pkl # Feature scaler for normalization
+│
+├── 📂 scripts # Folder for training and prediction scripts
+│ ├── 📄 experiment.py # Data preprocessing and ANN model training
+│ ├── 📄 hypertuning.py # Hyperparameter optimization
+│ └── 📄 prediction.py # Script for making predictions
+│
+├── 📂 logs # Folder for training logs (e.g., TensorBoard)
+│
+└── 📜 app.py # Streamlit app for interactive predictions
+
+
+
 # Dataset
 
 The dataset used is Churn_Modelling.csv, which contains customer information, including:
