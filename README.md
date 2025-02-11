@@ -108,9 +108,11 @@ To launch TensorBoard:
 %tensorboard --logdir logs/fit
 ```
 
-![Image](https://github.com/user-attachments/assets/9862aa60-fa46-4b59-9162-058f0a00cf13)
 
- 
+<img width="1440" alt="Image" src="https://github.com/user-attachments/assets/6b96146b-4b17-4d01-93e5-98529851805c" />
+<img width="1440" alt="Image" src="https://github.com/user-attachments/assets/89732ec4-7eea-41e0-b185-79ae238312ee" />
+<img width="1440" alt="Image" src="https://github.com/user-attachments/assets/2adc6dcc-a900-41fc-941e-0fb19173a3b4" />
+
 # Making Predictions
 Once trained, the model can predict customer churn based on new user inputs. The prediction process involves:
 ### 1. Loading Pre-trained Model & Encoders: 
