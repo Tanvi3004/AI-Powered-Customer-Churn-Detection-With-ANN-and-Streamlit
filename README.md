@@ -21,7 +21,24 @@ Using TensorBoard for real-time tracking.
 ### 5.Prediction & Deployment:
 Using the model in a Streamlit web app.
 
-![Project Structure](assets/project_structure.png)
+# Project Structure
+
+- **Customer-Churn-Prediction-ANN/**
+  - `README.md` - Project documentation.
+  - `requirements.txt` - Required dependencies.
+  - **data/** - Dataset files.
+    - `Churn_Modelling.csv` - Customer churn dataset.
+  - **models/** - Saved models and encoders.
+    - `model.h5` - Trained ANN model.
+    - `label_encoder_gender.pkl` - Label encoder for gender.
+    - `onehot_encoder_geo.pkl` - One-hot encoder for geography.
+    - `scaler.pkl` - Feature scaler.
+  - **scripts/** - Training and prediction scripts.
+    - `experiment.py` - Data preprocessing and ANN model training.
+    - `hypertuning.py` - Hyperparameter optimization.
+    - `prediction.py` - Prediction logic.
+  - **logs/** - Training logs for TensorBoard.
+  - `app.py` - Streamlit app for interactive predictions.
 
 
 # Dataset
