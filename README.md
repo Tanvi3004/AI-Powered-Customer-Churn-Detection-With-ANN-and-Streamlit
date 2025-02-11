@@ -41,22 +41,21 @@ Using the model in a Streamlit web app.
 
 
 📂 Customer-Churn-Prediction-ANN
-│-- 📜 README.md # Project Documentation
-│-- 📜 requirements.txt # Required Dependencies
-│-- 📂 data # Dataset Files
-│ ├── 📄 Churn_Modelling.csv
-│-- 📂 models # Saved Model & Encoders
-│ ├── 📄 model.h5
-│ ├── 📄 label_encoder_gender.pkl
-│ ├── 📄 onehot_encoder_geo.pkl
-│ ├── 📄 scaler.pkl
-│-- 📂 scripts # Training & Prediction Scripts
-│ ├── 📄 experiment.py # Data Preprocessing & ANN Model
-│ ├── 📄 hypertuning.py # Hyperparameter Optimization
-│ ├── 📄 prediction.py # Prediction Logic
-│-- 📂 logs # Training Logs for TensorBoard
-│-- 📜 app.py # Streamlit App
-
+│-- 📜 README.md                # Project Documentation
+│-- 📜 requirements.txt          # Required Dependencies
+│-- 📂 data                      # Dataset Files
+│   ├── 📄 Churn_Modelling.csv
+│-- 📂 models                    # Saved Model & Encoders
+│   ├── 📄 model.h5
+│   ├── 📄 label_encoder_gender.pkl
+│   ├── 📄 onehot_encoder_geo.pkl
+│   ├── 📄 scaler.pkl
+│-- 📂 scripts                   # Training & Prediction Scripts
+│   ├── 📄 experiment.py         # Data Preprocessing & ANN Model
+│   ├── 📄 hypertuning.py        # Hyperparameter Optimization
+│   ├── 📄 prediction.py         # Prediction Logic
+│-- 📂 logs                      # Training Logs for TensorBoard
+│-- 📜 app.py                    # Streamlit App
 
 
 # Dataset
