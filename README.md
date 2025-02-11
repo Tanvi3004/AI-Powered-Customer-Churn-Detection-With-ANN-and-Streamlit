@@ -41,27 +41,21 @@ Using the model in a Streamlit web app.
 
 
 📂 Customer-Churn-Prediction-ANN
-│
-├── 📜 README.md # Project overview and documentation
-├── 📜 requirements.txt # List of dependencies
-│
-├── 📂 data # Folder containing dataset
-│ └── 📄 Churn_Modelling.csv # Customer churn dataset
-│
-├── 📂 models # Folder for saved models and encoders
-│ ├── 📄 model.h5 # Trained ANN model
-│ ├── 📄 label_encoder_gender.pkl # Label encoder for gender
-│ ├── 📄 onehot_encoder_geo.pkl # One-hot encoder for geography
-│ └── 📄 scaler.pkl # Feature scaler for normalization
-│
-├── 📂 scripts # Folder for training and prediction scripts
-│ ├── 📄 experiment.py # Data preprocessing and ANN model training
-│ ├── 📄 hypertuning.py # Hyperparameter optimization
-│ └── 📄 prediction.py # Script for making predictions
-│
-├── 📂 logs # Folder for training logs (e.g., TensorBoard)
-│
-└── 📜 app.py # Streamlit app for interactive predictions
+│-- 📜 README.md # Project Documentation
+│-- 📜 requirements.txt # Required Dependencies
+│-- 📂 data # Dataset Files
+│ ├── 📄 Churn_Modelling.csv
+│-- 📂 models # Saved Model & Encoders
+│ ├── 📄 model.h5
+│ ├── 📄 label_encoder_gender.pkl
+│ ├── 📄 onehot_encoder_geo.pkl
+│ ├── 📄 scaler.pkl
+│-- 📂 scripts # Training & Prediction Scripts
+│ ├── 📄 experiment.py # Data Preprocessing & ANN Model
+│ ├── 📄 hypertuning.py # Hyperparameter Optimization
+│ ├── 📄 prediction.py # Prediction Logic
+│-- 📂 logs # Training Logs for TensorBoard
+│-- 📜 app.py # Streamlit App
 
 
 
