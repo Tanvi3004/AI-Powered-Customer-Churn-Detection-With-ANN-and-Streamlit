@@ -49,12 +49,12 @@ The dataset used is Churn_Modelling.csv, which contains customer information, in
 
 #  Data Preprocessing:
 Before training the model, the dataset undergoes several preprocessing steps:
-### - Dropping Unnecessary Columns: 
+### Dropping Unnecessary Columns: 
 Customer ID and name are removed as they don’t contribute to predictions.
-### - Encoding Categorical Variables:
+### Encoding Categorical Variables:
  - Label Encoding for Gender converts text values into numerical ones.
  - One-Hot Encoding for Geography ensures categorical values are represented properly.
-### - Feature Scaling: 
+### Feature Scaling: 
 Standardizing numerical values improves model performance.
 ### Saving Encoders & Scalers: 
 These preprocessing components are stored for consistent input transformation during predictions.
