@@ -1,5 +1,5 @@
 # Customer Churn Prediction Using ANN and Streamlit
-##Overview
+## Overview
 
 This project builds a deep learning model using Artificial Neural Networks (ANNs) to predict customer churn. The model analyzes customer attributes like age, credit score, account balance, and transaction behavior to determine the likelihood of churn.
 
