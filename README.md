@@ -135,6 +135,13 @@ streamlit run app.py
 ```
 Users can input customer details and instantly get churn predictions through a user-friendly dashboard.
 
+# Access the Streamlit App
+Click the link below to access and try the app:
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-powered-customer-churn-detection-with-ann.streamlit.app/)
+
+🔗 **[AI-Powered Customer Churn Detection App](https://ai-powered-customer-churn-detection-with-ann.streamlit.app/)**
+
 # Conclusion
 
 This project provides an end-to-end AI-powered solution for predicting customer churn. By integrating data preprocessing, ANN training, hyperparameter tuning, and real-time monitoring with TensorBoard, the model offers a scalable, efficient approach to understanding and mitigating customer attrition.
