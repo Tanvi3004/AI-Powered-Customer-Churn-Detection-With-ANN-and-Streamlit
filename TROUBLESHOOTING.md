@@ -7,11 +7,9 @@ If you encounter the following SSL error on macOS when using urllib, TensorFlow 
 ### Fix for macOS Users (Global Solution for All Environments):
  - STEP 1: Upgrade SSL Certificates (certifi)
    - First, install or upgrade `certifi`, which provides the latest SSL certificates for Python:
-# 
-#     ``` bash
-#     pip install --upgrade certifi
-#     ```
-#
+``` bash
+pip install --upgrade certifi
+```
 # --------------------------------------------------------------------------------------------------------
 # 🛠 **STEP 2: Verify Where `certifi` Stores SSL Certificates**
 # --------------------------------------------------------------------------------------------------------
