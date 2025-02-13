@@ -1,12 +1,11 @@
 # 🚀 MacOS SSL CERTIFICATE ISSUE & GLOBAL FIX:
-## If you encounter the following SSL error on macOS when using urllib, TensorFlow datasets, or APIs:
+If you encounter the following SSL error on macOS when using urllib, TensorFlow datasets, or APIs:
 
 # ❌ SSL error: [SSL: CERTIFICATE_VERIFY_FAILED] unable to get local issuer certificate (_ssl.c:1007)
-#
+
 ##  Reason: Python may not be able to find the correct SSL certificate.
 ### Fix for macOS Users (Global Solution for All Environments):
-
-#STEP 1: Upgrade SSL Certificates (certifi)
+ - STEP 1: Upgrade SSL Certificates (certifi)
 # --------------------------------------------------------------------------------------------------------
 # First, install or upgrade `certifi`, which provides the latest SSL certificates for Python:
 # 
