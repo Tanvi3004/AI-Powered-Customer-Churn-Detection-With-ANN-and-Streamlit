@@ -13,7 +13,7 @@
 # --------------------------------------------------------------------------------------------------------
 # First, install or upgrade `certifi`, which provides the latest SSL certificates for Python:
 # 
-#     ```bash
+#     ``` bash
 #     pip install --upgrade certifi
 #     ```
 #
@@ -21,8 +21,8 @@
 # 🛠 **STEP 2: Verify Where `certifi` Stores SSL Certificates**
 # --------------------------------------------------------------------------------------------------------
 # Run the following command to find where Python's `certifi` package stores its SSL certificates:
-# 
-#     ```python
+# in python
+#     ``` bash
 #     import certifi
 #     print(certifi.where())  # Should return a valid .pem file path
 #     ```
@@ -37,14 +37,14 @@
 # --------------------------------------------------------------------------------------------------------
 # To ensure Python always uses the correct SSL certificate, set it permanently in your macOS shell profile:
 # 
-#     ```bash
+#     ``` bash
 #     echo "export SSL_CERT_FILE=$(python -c 'import certifi; print(certifi.where())')" >> ~/.zshrc
 #     source ~/.zshrc
 #     ```
 #
 # If using **Bash (instead of Zsh)**, modify `~/.bashrc` instead:
 # 
-#     ```bash
+#     ``` bash
 #     echo "export SSL_CERT_FILE=$(python -c 'import certifi; print(certifi.where())')" >> ~/.bashrc
 #     source ~/.bashrc
 #     ```
@@ -54,7 +54,7 @@
 # --------------------------------------------------------------------------------------------------------
 # Close and reopen your terminal, then check if Python is now using the correct SSL settings:
 # 
-#     ```python
+#     ``` bash
 #     import ssl
 #     print(ssl.get_default_verify_paths())
 #     ```
@@ -67,7 +67,7 @@
 # --------------------------------------------------------------------------------------------------------
 # If you are using **Anaconda or Miniconda**, reinstall OpenSSL inside Conda:
 # 
-#     ```bash
+#     ``` bash
 #     conda install --force-reinstall -c anaconda openssl
 #     ```
 #
@@ -78,7 +78,7 @@
 # --------------------------------------------------------------------------------------------------------
 # Now, test if Python can securely connect to HTTPS sites:
 # 
-#     ```python
+#     ``` bash
 #     import ssl
 #     import urllib.request
 # 
@@ -97,7 +97,7 @@
 # --------------------------------------------------------------------------------------------------------
 # If you are using TensorFlow datasets (e.g., IMDB dataset), check if it downloads successfully:
 #
-#     ```python
+#     ``` bash
 #     from tensorflow.keras.datasets import imdb
 # 
 #     max_features = 10000
