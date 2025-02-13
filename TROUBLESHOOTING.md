@@ -21,7 +21,7 @@ print(certifi.where())  # Should return a valid .pem file path
 ###  Example output:
  `/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem`
 
-- If this returns a valid `.pem` file path, move to the next step.
+If this returns a valid `.pem` file path, move to the next step.
 
  - STEP 3: Set the SSL Certificate Path Globally**
    - To ensure Python always uses the correct SSL certificate, set it permanently in your macOS shell profile:
